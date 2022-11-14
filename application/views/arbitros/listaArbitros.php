@@ -1,4 +1,7 @@
 <div class="container">
+    <br>
+    <h1>Árbitros</h1>
+    </br>
     <table class="table table-dark table-striped table-bordered border-silver">
         <thead>
             <th>Id</th>
@@ -9,6 +12,7 @@
             <th>Fecha de nacimiento</th>
             <th>Foto</th>
             <th>Operaciones</th>
+            <th>Borrar</th>
         </thead>
         <tbody>
             <?php foreach ($arbitros as $key): ?>
