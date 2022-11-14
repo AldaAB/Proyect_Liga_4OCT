@@ -2,7 +2,7 @@
     <br>
     <h1>Árbitros</h1>
     </br>
-    <table class="table table-dark table-striped table-bordered border-silver">
+    <table class="table table-striped table-bordered">
         <thead>
             <th>Id</th>
             <th>Nombre</th>
@@ -32,3 +32,4 @@
         </tbody>
     </table>
 </div>
+

@@ -7,14 +7,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Jugadores</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Equipos</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Delegados
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -24,7 +24,16 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link disabled">Árbitros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Canchas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Partidos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resultados</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
