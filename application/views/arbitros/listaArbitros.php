@@ -24,8 +24,8 @@
                     <td><?=$key->Telefono ?></td>
                     <td><?=$key->FechaNacimiento ?></td>
                     <td><?=$key->Foto ?></td>
-                    <td><a class="btn btn-success" href="<?=base_url('index.php/ArbitrosC/detalleArbitro/').$key->IdArbitro ?>">Ver detalles</a></td>
-                    <td><a class="btn btn-danger" href="<?=base_url('index.php/ArbitrosC/borrarArbitro/').$key->IdArbitro ?>">Borrar</a></td>
+                    <td><a class="btn btn-success btn-sm" href="<?=base_url('index.php/ArbitrosC/detalleArbitro/').$key->IdArbitro ?>">Ver detalles</a></td>
+                    <td><a class="btn btn-danger btn-sm" href="<?=base_url('index.php/ArbitrosC/borrarArbitro/').$key->IdArbitro ?>">Borrar</a></td>
                 </tr>
             <?php endforeach ?>
 
