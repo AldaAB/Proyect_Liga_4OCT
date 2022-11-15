@@ -33,3 +33,6 @@
     </table>
 </div>
 
+<br>
+<h6 style="color: darkgrey; text-align:center;">Modern Football Technology&#174;</h6>
+</br>
