@@ -18,4 +18,17 @@ class ArbitrosM extends CI_Model
         $this->db->delete('Arbitros');
         return TRUE;
     }
+
+    function insertArbitro(){
+        $data = array(
+            'Nombre' => $this->input->post('Nombre'),
+            'ApellidoPaterno' => $this->input->post('ApellidoPaterno'),
+            'ApellidoMaterno' => $this->input->post('ApellidoMaterno'),
+            'Telefono' => $this->input->post('Telefono'),
+            'FechaNacimiento' => $this->input->post('FechaNacimiento'),
+            'Foto' => $this->input->post('Foto'),
+        );
+
+        $this->db->insert('Arbitros', $data);
+    }
 } ?>
