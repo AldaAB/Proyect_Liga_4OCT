@@ -1,6 +1,6 @@
 <div class="container">
     <br>
-    <a class="btn btn-success" href="<?=base_url('index.php/ArbitrosC/insertArbitro') ?>">Agregar árbitro</a>
+    <a class="btn btn-success btn-sm" href="<?=base_url('index.php/ArbitrosC/insertArbitro') ?>">Agregar árbitro</a>
     </br>
     <br>
     <h1>Árbitros</h1>
