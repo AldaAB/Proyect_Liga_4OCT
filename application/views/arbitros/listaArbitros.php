@@ -3,7 +3,7 @@
     <a class="btn btn-success btn-sm" href="<?=base_url('index.php/ArbitrosC/insertArbitro') ?>">Agregar árbitro</a>
     </br>
     <br>
-    <h1>Árbitros</h1>
+    <h1>Árbitros&#9917;</h1>
     </br>
     <table class="table table-striped table-bordered">
         <thead>
@@ -16,6 +16,7 @@
             <th>Foto</th>
             <th>Operaciones</th>
             <th>Borrar</th>
+            <th>Editar</th>
         </thead>
         <tbody>
             <?php foreach ($arbitros as $key): ?>
@@ -30,6 +31,7 @@
                     <td><a class="btn btn-primary btn-sm" href="<?=base_url('index.php/ArbitrosC/detalleArbitro/').$key->IdArbitro ?>">Ver detalles</a></td>
                     
                     <td><a class="btn btn-danger btn-sm" href="<?=base_url('index.php/ArbitrosC/borrarArbitro/').$key->IdArbitro ?>">Borrar</a></td>
+                    <td><a class="btn btn-warning btn-sm" href="<?=base_url('index.php/ArbitrosC/updateArbitro/').$key->IdArbitro ?>">Editar</a></td>
                 </tr>
             <?php endforeach ?>
 

@@ -31,4 +31,17 @@ class ArbitrosM extends CI_Model
 
         $this->db->insert('Arbitros', $data);
     }
+
+    function updateArbitro($IdArbitro){
+        $data = array(
+            'Nombre' => $this->input->post('Nombre'),
+            'ApellidoPaterno' => $this->input->post('ApellidoPaterno'),
+            'ApellidoMaterno' => $this->input->post('ApellidoMaterno'),
+            'Telefono' => $this->input->post('Telefono'),
+            'FechaNacimiento' => $this->input->post('FechaNacimiento'),
+            'Foto' => $this->input->post('Foto'),
+        );
+        $this->db->where('IdArbitro', $IdArbitro);
+        $this->db->update('Arbitros', $data);
+    }
 } ?>
