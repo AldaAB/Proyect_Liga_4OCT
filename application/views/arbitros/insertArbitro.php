@@ -20,7 +20,11 @@
         <label>Foto</label>
         <input type="text" class="form-control" name="Foto">
         <br>
-        <input type="submit">
+        <input type="submit" class="btn btn-outline-secondary btn-sm">
     </form>
     </br>
 </div>
+
+<br>
+<h6 style="color: darkgrey; text-align:center;">Modern Football Technology&#174;</h6>
+</br>
