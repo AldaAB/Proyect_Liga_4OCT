@@ -1,6 +1,7 @@
 <?php
 class ArbitrosC extends CI_Controller
 {
+ 
     public function show(){
         $this->load->model('ArbitrosM');
         $data['arbitros'] = $this->ArbitrosM->getArbitros();

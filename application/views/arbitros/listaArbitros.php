@@ -3,6 +3,24 @@
     <a class="btn btn-success btn-sm" href="<?=base_url('index.php/ArbitrosC/insertArbitro') ?>">Agregar árbitro</a>
     </br>
     <br>
+    <style>
+        h1{
+            text-shadow: 2px 2px 5px red;
+        }
+
+        table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: silver;}    
+        </style>
     <h1>Árbitros&#9917;</h1>
     </br>
     <table class="table table-striped table-bordered">
